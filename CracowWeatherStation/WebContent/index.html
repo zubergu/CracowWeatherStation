@@ -1,10 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Serwis pogodowy dla Krakowa</title>
+    
+    <! STYLE CSS ZEWNETRZNE >
+	<link rel="stylesheet" type="text/css" media="screen" href="css/menu_up.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/menu_dropdown.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/bloki.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/background.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/stopka.css" />
+	
+	<script type="text/javascript" src="jquery/jquery-2.1.4.js"></script>
+  </head>
+
 <body>
+	<div class="bw-c"><div id="logo"><div class="TYTUL">Kraków: Serwis Pogodowy</div></div></div>
+  <ol>
+    <li><a href="index.html">Strona główna</a></li>
+
+    <li><a href="#">Archiwalne</a>
+      <ul>
+        <li><a href="archiwum_dzien.html">Konkretny dzień</a></li>
+        <li><a href="archiwum_przedzial.html">Przedział</a></li>
+      </ul>
+    </li>
+	
+	<li><a href="#">Download</a>
+      	<ul>
+        	<li><a href="down_dzien.html">Konkretny dzień</a></li>
+        	<li><a href="down_przedzial.html">Przedział</a></li>
+      	</ul>
+    </li>
+
+    <li><a href="#">Statystyki</a>
+	</li>
+
+
+    <li><a href="#">Galeria</a>
+      <ul>
+        <li><a href="galeria_zdjecia.html">Zdjęcia</a></li>
+        <li><a href="galeria_kamery.html">Kamery on-line</a></li>
+      </ul>
+    </li>
+    
+    <li><a href="komentarz.html">Komentarze</a></li>
+    
+    <li><a href="#">Kontakt</a>
+    	<ul>
+			<li><a href="rejestracja.html">Rejestracja</a></li>
+    		<li><a href="login.html">Zaloguj</a></li>
+        	<li><a href="kontakt.html">Kontakt</a></li>
+    		<li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+    </li>    
+  </ol>
+  
+<div id="blok_glowny"><br/>
+
+	<div id="blok_informacje">Na stronie znajdują się aktualne dane meteorologiczne dla Krakowa</div>
+	<br/><br/>
+	
+	<div id="blok_temperatura_aktualna">
+		<span style="font-size:20px">Aktualna pogoda w Krakowie:</span>
+		<br/><br/>
+		Ostatnia aktualizacja: <br/>
+		Temperatura: <br/>
+		Ciśnienie: <br/>
+		Kierunek wiatru: <br/>
+		Prędkość wiatru: <br/>
+		Wilgotność: <br/>
+		Opady: <br/>
+	</div>
+   
+</div>
+
+<br/>
+<div id="STOPKA">Strona używa <span style="color: #3b9adb; font-style: oblique; font-weight: bold">HTML5</span>, <span style="color: #e34f26; font-style: oblique; font-weight: bold">CSS3</span>, AngularJS oraz JavaScript i silnika Webkit<br/>zalecane przeglądanie w przeglądarkach nowszych niż: Chrome (od wersji 27) oraz Opera (od wersji 14)<br/>Firefox standardowo nie wspiera silnika Webkit</div>
 
 </body>
 </html>
