@@ -1,0 +1,14 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2015-11-29 23:48:37 #1 store] 
+Database '/home/zubergu/git/cws/CracowWeatherStation/$objectdb:/localhost/WeatherServTemp.odb' is opened by 8375@ubuntu
+
+[2015-11-29 23:48:38 #2 type.registry] 
+New type com.zubergu.weatherservice.persistence.Employee
+
+[2015-11-29 23:48:38 #3 type] 
+Type com.zubergu.weatherservice.persistence.Employee is not enhanced.
+
+[2015-11-29 23:48:38 #4 store] 
+Database '/home/zubergu/git/cws/CracowWeatherStation/$objectdb:/localhost/WeatherServTemp.odb' is closed by 8375@ubuntu
+
