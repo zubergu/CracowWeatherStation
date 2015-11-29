@@ -1,0 +1,19 @@
+/* STOPKA NA WSZYSTKICH STRONACH */
+#STOPKA {
+	font-family		: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size		: 11px;
+	font-weight		: normal;
+	color			: black;
+	text-align		: center;
+	width			: 995px;
+	height			: 40px;
+	border			: 1px solid;
+	border-color	: black;
+	margin-left		: auto;
+	margin-right	: auto;
+}
+
+#STOPKA:hover {
+	border			: 1px dotted #000;
+	border-color	: #2F3937;
+}

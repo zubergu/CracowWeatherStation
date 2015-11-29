@@ -1,0 +1,52 @@
+/* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+      /* wygląd głównego elementu - ol */
+      ol {
+        list-style-type	:none;
+		height			:2em; 
+		width			:995px;
+        padding			:0;
+        margin			:0 auto;
+		border			:1px solid;
+		border-color	:#096A2F;
+        font			:12px Verdana, Arial, Helvetica, sans-serif;
+        line-height		:2em;
+        text-align		:center;
+      }
+
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      ol a {
+        display			:block;
+        text-decoration	:none;
+        color			:#000;
+        padding			:0 5px;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      ol > li {
+        float			:left;
+        width			:141px;
+        margin-left		:1px;
+        background-color:#8BC5B7;
+        height			:2em;
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      ol > li:first-child {
+        margin-left		:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover {
+        background-color:#EEE;
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > a {
+        color			:#09C;
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > ul {
+        display			:block;
+      }
